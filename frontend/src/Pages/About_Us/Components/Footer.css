@@ -1,0 +1,48 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Banschrift', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0 0 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-link .icon {
+  width: 42px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-link {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,55 @@
+.MuiGrid2-container{
+    margin: 0;
+    padding: 0;
+    
+}
+.MuiPaper-root{
+    border-radius: 0    ;
+}
+
+.stepper_images{
+    width:"100%";
+    height:"100%";
+    border-radius:"8px"
+}
+
+.registerNow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdOjQleOyjRXW5rz4LKHUKpD-FXt-i8ZEKg&s'); */
+    background-size: cover;
+    height: 300px;
+    background-color: #81810e;
+    color: #fff;
+    cursor: pointer;
+}
+.registerNow img{
+    height: 80px;
+    width: 200px;
+}
+.registerNow button{
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #c4892b;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.registerNow button:hover{
+    background-color: #dd9829;
+}
+
+
+.news-row:hover{
+    background-color: #84845c;
+    cursor: pointer;
+}
+@media (max-width:600px){
+    .stepper_images{
+        width: 80px;
+        height: 200px;
+    }
+}

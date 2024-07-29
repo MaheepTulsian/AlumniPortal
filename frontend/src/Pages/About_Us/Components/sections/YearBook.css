@@ -1,0 +1,17 @@
+.yearbook-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .yearbook-links {
+    margin-top: 20px;
+  }
+  
+  .yearbook-links p {
+    margin-bottom: 10px;
+  }
+  

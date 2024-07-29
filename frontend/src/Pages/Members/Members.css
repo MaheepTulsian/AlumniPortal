@@ -1,0 +1,91 @@
+/* Members.css */
+
+/* Container for the entire page */
+.members-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff; /* White text for contrast */
+}
+
+/* Search and Filter Container */
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 16px;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.sort-select{
+    width: 100px; /* Limit width for consistency */
+}
+
+/* TextField for search */
+.search-bar {
+    flex-grow: 1;
+    max-width: 300px; /* Limit size on larger screens */
+}
+
+/* Pagination and Jump to Page Container */
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+.pagination-container .MuiPaginationItem-root {
+    background-color: #fff; /* Background color for pagination buttons */
+    color: #404020; /* Text color matching the theme */
+    border-radius: 4px;
+}
+
+.pagination-container .MuiPaginationItem-root:hover {
+    background-color: #e0e0e0; /* Light grey hover effect */
+}
+
+.jump-to-page {
+    max-width: 160px; /* Adjust width for consistency */
+}
+
+.button-go {
+    background-color: #404020; /* Match theme */
+    color: #fff; /* White text for contrast */
+}
+
+.button-go:hover {
+    background-color: #303010; /* Darker shade for hover */
+}
+
+/* Ensure cards are of consistent size */
+.card-container {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-header {
+    padding: 16px;
+}
+
+.card-content {
+    flex-grow: 1; /* Ensure content area grows to fill space */
+}
+
+/* Make sure drawer width is responsive */
+.drawer-content {
+    width: 250px;
+    padding: 16px;
+    background-color: #f5f5f5; /* Light background for drawer */
+}
+
+/* Style for the Filter Drawer */
+.drawer-list-item {
+    padding: 16px 0;
+}

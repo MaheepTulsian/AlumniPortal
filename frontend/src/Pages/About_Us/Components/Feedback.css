@@ -1,0 +1,43 @@
+.feedback-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #404020;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.feedback-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.feedback-box:hover {
+  background-color: #2a2a15;
+}
+
+.feedback-box h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .feedback-box {
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 15px;
+  }
+
+  .feedback-box h2 {
+    font-size: 16px;
+  }
+}

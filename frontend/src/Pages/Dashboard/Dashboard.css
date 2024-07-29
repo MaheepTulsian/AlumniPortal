@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    background: linear-gradient(to top, #fff,#404020);
+}
+.MuiAvatar-root{
+    border-radius: 0;
+}
+.paper_1{
+    margin: 50px 10px 0px 50px;
+    width: 300px;
+    border-radius: 14px;
+    padding: 16px;
+    cursor: pointer;
+    /* border: 0.5px solid #404020; */
+    height: fit-content;
+    /* fix this on top after scroll */
+    position: sticky;
+    top: 20px;    
+}
+.avatar_profile{
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.paper_2{
+    margin: 50px 50px 0px 10px;
+    width: 100%;
+    border-radius: 14px;
+    padding: 20px;
+    height: fit-content;
+}
+.headings{
+    display: flex;
+    flex-direction: row;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:10px 0px 0px 30px;
+}
+.typo_1{
+    width: 30%;
+}
+.typo_2{
+    width: 70%;
+}
+.work_box{
+    display: flex;
+    flex-direction: column;
+}
+.experience_Obj{
+    border: 1px solid #404020;
+    border-radius: 8px;
+    margin: 8px 0px;
+    padding: 5px;
+    padding-top: 13px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 8px;
+}
+.experience_divider{
+    width: 100%;
+    margin: 5px 40%;
+}
+@media (max-width:992px){
+    .container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .paper_1{
+        margin: 20px auto;
+        height: fit-content;
+        text-align: center;
+        position: static;
+    }
+    .paper_2{
+        width: 85%;
+        margin: 0;
+        margin: 10px auto;
+        background-color: aqua;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .typo_1{
+        width: 100%;
+    }
+    .typo_2{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .experience_Obj{
+        padding-top: 13px;
+        padding-left: 30px;
+        display: grid;
+        grid-template-columns: auto ;
+        row-gap: 8px;
+    }
+}
+.MuiChip-label{
+    font-size: 14px;
+    color: #fff;
+}
+.MuiChip-root{
+    border: 1px solid #fff;
+}
+.main_Container{
+    background: linear-gradient(to bottom, grey,#404020);
+}
