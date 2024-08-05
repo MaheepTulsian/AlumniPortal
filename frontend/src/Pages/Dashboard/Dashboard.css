@@ -24,7 +24,7 @@
     margin: 20px auto;
 }
 .paper_2{
-    margin: 50px 50px 0px 10px;
+    margin: 50px 50px 50px 10px;
     width: 100%;
     border-radius: 14px;
     padding: 20px;
@@ -112,4 +112,5 @@
 }
 .main_Container{
     background: linear-gradient(to bottom, grey,#404020);
+    height: 100vh;
 }
